@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Simple" time="24" tests="0" failures="1" errors="0">
+   <testsuite name="Simple" tests="0" failures="1" errors="0" time="24" timestamp="2019-03-26 15:25:50" hostname="Brandon - 10.227.144.145" id="Test Suites/Imported from Selenium IDE Scripts/Simple">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Brandon\\Katalon Studio\\First Project\\Reports\\Imported from Selenium IDE Scripts\\Simple\\20190326_152549"/>
+         <property name="logFiles" value="C:\\Users\\Brandon\\Katalon Studio\\First Project\\Reports\\Imported from Selenium IDE Scripts\\Simple\\20190326_152549\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Brandon - 10.227.144.145"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+         <property name="browser" value="Firefox 66.0"/>
+         <property name="hostAddress" value="10.227.144.145"/>
+         <property name="sessionId" value="7f653ff0-e0d0-4775-9522-4a141280dc45"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Imported from Selenium IDE Scripts/Simple/Simple" classname="Test Cases/Imported from Selenium IDE Scripts/Simple/Simple" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Imported from Selenium IDE Scripts/Simple/Simple FAILED.
+Reason:
+org.junit.ComparisonFailure: expected:&lt;...Training Tutorials &amp;[amp;] Video for IT Course...> but was:&lt;...Training Tutorials &amp;[] Video for IT Course...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.junit.Assert$assertEquals.callStatic(Unknown Source)
+	at Simple.run(Simple:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553628349174.run(TempTestSuite1553628349174.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-26 15:25:50 - [TEST_CASE][FAILED] - Test Cases/Imported from Selenium IDE Scripts/Simple/Simple: Test Cases/Imported from Selenium IDE Scripts/Simple/Simple FAILED.
+Reason:
+org.junit.ComparisonFailure: expected:<...Training Tutorials &[amp;] Video for IT Course...> but was:<...Training Tutorials &[] Video for IT Course...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.junit.Assert$assertEquals.callStatic(Unknown Source)
+	at Simple.run(Simple:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553628349174.run(TempTestSuite1553628349174.groovy:35)
+
+
+2019-03-26 15:25:51 - [TEST_STEP][PASSED] - "----------------------------------------------------": null
+
+2019-03-26 15:25:51 - [TEST_STEP][PASSED] - "This test case script is generated by Katalon Studio": null
+
+2019-03-26 15:25:51 - [TEST_STEP][PASSED] - "Generated date: 26-Mar-2019 03:22:29 PM": null
+
+2019-03-26 15:25:51 - [TEST_STEP][PASSED] - "File path: C:\Users\Brandon\Documents\Katalon Recorder Suites\Simple.html": null
+
+2019-03-26 15:25:51 - [TEST_STEP][PASSED] - "Generated by: bolson@northwoodglobal.com": null
+
+2019-03-26 15:25:51 - [TEST_STEP][PASSED] - baseUrl = "http://demo.guru99.com/test/login.html": null
+
+2019-03-26 15:25:51 - [TEST_STEP][PASSED] - openBrowser(baseUrl): Browser is opened with url: 'http://demo.guru99.com/test/login.html'
+
+2019-03-26 15:25:52 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-26 15:25:52 - [MESSAGE][INFO] - User set preference: ['profile_name', 'Autotest']
+
+2019-03-26 15:25:52 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-26 15:25:58 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demo.guru99.com/test/login.html'
+
+2019-03-26 15:25:58 - [TEST_STEP][PASSED] - selenium = new com.kms.katalon.core.webui.driver.KatalonWebDriverBackedSelenium(baseUrl): null
+
+2019-03-26 15:25:58 - [TEST_STEP][PASSED] - selenium.open("http://demo.guru99.com/test/login.html", ""): null
+
+2019-03-26 15:25:59 - [TEST_STEP][PASSED] - selenium.click("id=email"): null
+
+2019-03-26 15:25:59 - [TEST_STEP][PASSED] - selenium.type("id=email", "person"): null
+
+2019-03-26 15:25:59 - [TEST_STEP][PASSED] - selenium.type("id=passwd", "password"): null
+
+2019-03-26 15:25:59 - [TEST_STEP][PASSED] - selenium.click("id=SubmitLogin"): null
+
+2019-03-26 15:26:00 - [TEST_STEP][PASSED] - selenium.click("//html/body/div[2]/div/div/a"): null
+
+2019-03-26 15:26:03 - [TEST_STEP][PASSED] - verifyEquals("This is not the title", selenium.getTitle()): null
+
+2019-03-26 15:26:03 - [TEST_STEP][FAILED] - Assert.assertEquals("Meet Guru99 - Free Training Tutorials &amp; Video for IT Courses", selenium.getTitle()): Assert.assertEquals("Meet Guru99 - Free Training Tutorials &amp; Video for IT Courses", selenium.getTitle()) FAILED.
+Reason:
+org.junit.ComparisonFailure: expected:<...Training Tutorials &[amp;] Video for IT Course...> but was:<...Training Tutorials &[] Video for IT Course...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.junit.Assert$assertEquals.callStatic(Unknown Source)
+	at Simple.run(Simple:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553628349174.run(TempTestSuite1553628349174.groovy:35)
+
+
+2019-03-26 15:26:03 - [MESSAGE][FAILED] - Assert.assertEquals("Meet Guru99 - Free Training Tutorials &amp; Video for IT Courses", selenium.getTitle()) FAILED.
+Reason:
+org.junit.ComparisonFailure: expected:<...Training Tutorials &[amp;] Video for IT Course...> but was:<...Training Tutorials &[] Video for IT Course...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.junit.Assert$assertEquals.callStatic(Unknown Source)
+	at Simple.run(Simple:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553628349174.run(TempTestSuite1553628349174.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-03-26 15:25:50 - [TEST_CASE][FAILED] - Test Cases/Imported from Selenium IDE Scripts/Simple/Simple: Test Cases/Imported from Selenium IDE Scripts/Simple/Simple FAILED.
+Reason:
+org.junit.ComparisonFailure: expected:<...Training Tutorials &[amp;] Video for IT Course...> but was:<...Training Tutorials &[] Video for IT Course...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.junit.Assert$assertEquals.callStatic(Unknown Source)
+	at Simple.run(Simple:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553628349174.run(TempTestSuite1553628349174.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-26 15:25:50 - [TEST_SUITE][FAILED] - Simple: Test Cases/Imported from Selenium IDE Scripts/Simple/Simple FAILED.
+Reason:
+org.junit.ComparisonFailure: expected:<...Training Tutorials &[amp;] Video for IT Course...> but was:<...Training Tutorials &[] Video for IT Course...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.junit.Assert$assertEquals.callStatic(Unknown Source)
+	at Simple.run(Simple:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553628349174.run(TempTestSuite1553628349174.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-03-26 15:25:50 - [TEST_SUITE][FAILED] - Simple: Test Cases/Imported from Selenium IDE Scripts/Simple/Simple FAILED.
+Reason:
+org.junit.ComparisonFailure: expected:<...Training Tutorials &[amp;] Video for IT Course...> but was:<...Training Tutorials &[] Video for IT Course...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.junit.Assert$assertEquals.callStatic(Unknown Source)
+	at Simple.run(Simple:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553628349174.run(TempTestSuite1553628349174.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

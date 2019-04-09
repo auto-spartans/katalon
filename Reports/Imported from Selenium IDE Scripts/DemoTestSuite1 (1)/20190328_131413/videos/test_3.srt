@@ -1,0 +1,36 @@
+1
+00:00:00,279 --> 00:00:00,279
+13. ----------------------------------------------------
+
+2
+00:00:00,280 --> 00:00:00,281
+17. openBrowser(baseUrl)
+
+3
+00:00:04,170 --> 00:00:04,172
+21. selenium = new com.kms.katalon.core.webui.driver.KatalonWebDriverBackedSelenium(baseUrl)
+
+4
+00:00:04,246 --> 00:00:04,247
+27. open | http://demo.guru99.com/test/radio.html | 
+
+5
+00:00:04,652 --> 00:00:04,653
+33. click | id=vfb-7-1 | 
+
+6
+00:00:04,980 --> 00:00:04,980
+39. click | id=vfb-7-2 | 
+
+7
+00:00:05,033 --> 00:00:05,033
+45. click | id=vfb-6-0 | 
+
+8
+00:00:05,090 --> 00:00:05,090
+51. assertChecked | id=vfb-6-0 | 
+
+9
+00:00:05,113 --> 00:00:05,114
+57. assertTitle | Selenium IDE Test | 
+

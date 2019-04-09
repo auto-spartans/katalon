@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Setup,Chrome 73.0.3683.86,,2019-03-27 14:01:12,2019-03-27 14:01:23,11.728s,PASSED
+,,,,,,
+Test Cases/Setup,Chrome 73.0.3683.86,,2019-03-27 14:01:12,2019-03-27 14:01:23,11.411s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-27 14:01:13,2019-03-27 14:01:18,4.826s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-03-27 14:01:18,2019-03-27 14:01:19,0.600s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-27 14:01:19,2019-03-27 14:01:21,2.094s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-03-27 14:01:21,2019-03-27 14:01:21,0.574s,PASSED

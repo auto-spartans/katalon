@@ -1,0 +1,20 @@
+1
+00:00:00,506 --> 00:00:00,507
+13. ----------------------------------------------------
+
+2
+00:00:00,528 --> 00:00:00,530
+17. openBrowser(baseUrl)
+
+3
+00:00:19,263 --> 00:00:19,266
+21. selenium = new com.kms.katalon.core.webui.driver.KatalonWebDriverBackedSelenium(baseUrl)
+
+4
+00:00:19,517 --> 00:00:19,520
+27. waitForPageToLoad | 3000 | 
+
+5
+00:00:20,050 --> 00:00:20,052
+33. open | https://weather.com/ | 
+

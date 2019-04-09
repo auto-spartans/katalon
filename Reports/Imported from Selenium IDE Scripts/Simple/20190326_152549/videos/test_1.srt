@@ -1,0 +1,44 @@
+1
+00:00:00,545 --> 00:00:00,547
+13. ----------------------------------------------------
+
+2
+00:00:00,559 --> 00:00:00,560
+17. openBrowser(baseUrl)
+
+3
+00:00:07,230 --> 00:00:07,231
+21. selenium = new com.kms.katalon.core.webui.driver.KatalonWebDriverBackedSelenium(baseUrl)
+
+4
+00:00:07,464 --> 00:00:07,466
+27. open | http://demo.guru99.com/test/login.html | 
+
+5
+00:00:08,069 --> 00:00:08,073
+33. click | id=email | 
+
+6
+00:00:08,526 --> 00:00:08,529
+39. type | id=email | person
+
+7
+00:00:08,677 --> 00:00:08,678
+45. type | id=passwd | password
+
+8
+00:00:08,804 --> 00:00:08,807
+51. click | id=SubmitLogin | 
+
+9
+00:00:09,597 --> 00:00:09,599
+57. click | //html/body/div[2]/div/div/a | 
+
+10
+00:00:12,139 --> 00:00:12,142
+63. verifyTitle | This is not the title | 
+
+11
+00:00:12,179 --> 00:00:12,184
+69. assertTitle | Meet Guru99 - Free Training Tutorials &amp; Video for IT Courses | 
+
